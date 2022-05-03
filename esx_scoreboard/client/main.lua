@@ -92,7 +92,7 @@ Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)
 
-		if IsControlJustReleased(0, 56) and IsInputDisabled(0) then
+		if IsControlJustReleased(0, 249) and IsInputDisabled(0) then
 			isScoreboardActive = true
 			SetNuiFocus(true, true)
 			SendNUIMessage({action = 'enable'})
